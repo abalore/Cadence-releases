@@ -24,16 +24,13 @@ Ve a la **[página de releases](https://github.com/abalore/Cadence-releases/rele
 |---|---|---|
 | **Linux** | `Cadence-<ver>-x86_64.AppImage` | `chmod +x Cadence-*.AppImage && ./Cadence-*.AppImage` |
 | **Windows** | `cadence-windows-x64.zip` | Descomprime y ejecuta `cadence.exe` |
-| **macOS** (Apple Silicon) | `Cadence-<ver>-macOS-arm64.dmg` | Abre el `.dmg`, arrastra a *Aplicaciones*. Ver nota abajo. |
+| **macOS** (Apple Silicon) | `Cadence-<ver>-macOS-arm64.dmg` | Abre el `.dmg`, arrastra a *Aplicaciones* y ejecuta. |
 
 Todos los binarios son **autocontenidos**: Qt 6, PortAudio y el resto de dependencias van incluidas.
 
 ### Nota para macOS
 
-El `.app` está firmado *ad-hoc* (sin certificado de Apple Developer), por lo que Gatekeeper lo bloqueará la primera vez. Para abrirlo:
-
-- **Botón derecho → Abrir** sobre la app (y confirma en el diálogo), **o**
-- desde terminal: `xattr -cr /Applications/cadence.app`
+El `.app` está **firmado con Developer ID y notarizado por Apple**, así que se abre con normalidad, sin avisos de Gatekeeper. Solo Apple Silicon (arm64).
 
 ## Cómo usarlo
 
