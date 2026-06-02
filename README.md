@@ -46,7 +46,9 @@ El `.app` está firmado *ad-hoc* (sin certificado de Apple Developer), por lo qu
 | `Ctrl+F2` | Extraer disco (A) | | `Ctrl+F11` | Smoothing |
 | `F3` | Insertar cartucho | | `Shift+F11` | Monitor verde |
 | `Ctrl+F3` | Extraer cartucho | | `F12` | Reset |
-| `F5` | Abrir el debugger | | `Ctrl+0`…`Ctrl+5` | Persistencia de fósforo |
+| `F4` | **Cargar snapshot `.SNA`** | | `Ctrl+0`…`Ctrl+5` | Persistencia de fósforo |
+| `Shift+F4` | **Guardar snapshot `.SNA`** | | `Ctrl+Q` | Salir |
+| `F5` | Abrir el debugger | | | |
 
 Una vez insertado un medio:
 
@@ -54,7 +56,9 @@ Una vez insertado un medio:
 - **Disco**: `RUN"DISC` para el cargador por defecto, o `CAT` para listar.
 - **Cartucho**: arranca automáticamente al insertarlo.
 
-También puede cargarse media desde archivos **`.zip`**.
+**Snapshots (`.SNA`)**: guarda el estado completo de la máquina con `Shift+F4` y recupéralo con `F4` para continuar una partida más tarde. Formato estándar, compatible con otros emuladores (WinAPE, Caprice, CPCEC…); al cargar, el modelo (464/664/6128) se ajusta solo.
+
+También puede cargarse media (y snapshots) desde archivos **`.zip`**, o arrastrándolos sobre la ventana.
 
 ---
 
