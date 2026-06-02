@@ -5,7 +5,7 @@
 <h1 align="center">Cadence</h1>
 
 <p align="center">
-  Emulador de <b>Amstrad CPC</b> escrito en C++ y Qt 6, con debugger y ensamblador integrados.
+  Emulador de <b>Amstrad CPC</b> con debugger y ensamblador integrados.
 </p>
 
 <p align="center">
